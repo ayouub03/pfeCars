@@ -1,0 +1,171 @@
+/*  */
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    margin-top: -25px;
+    margin-right: 10px;
+   
+}
+h3{
+    margin: 50px 0px 10px 0px;
+    color: #304998d4;
+ 
+}
+
+.rating span {
+    display: inline-block;
+    position: relative;
+    width:9px;
+}
+
+.rating span:before {
+   content: '\2605';
+   position: absolute;
+    color: #ffa500;
+}
+
+.checked:before {
+    color: #ffD700;
+}
+
+.image_croper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.image_croper img {
+    display: block;
+    margin: -8px auto;
+    width: 100%;
+    height: auto;
+}
+
+/**********************************************/
+.profile-picture {
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+    border-radius: 50%; /* Make it rounded */
+}
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Rating Stars */
+.rating {
+    margin-left: 10px;
+}
+/* Username and Date */
+.username-date {
+    margin-bottom: 5px;
+}
+
+/* Username */
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Rating Date */
+.rating-date {
+    font-size: 12px; /* Adjust as needed */
+    color: #777; /* Adjust the color */
+}
+
+
+
+/************************************************************/
+/* Car */
+.car {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Car Image */
+.car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Car Title */
+.car h4 {
+    margin-bottom: 5px;
+}
+
+/* Car Trips */
+.car p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Ratings */
+.car .rating {
+    margin-bottom: 10px;
+}
+
+/* View Details Button */
+.car button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+
+.car button:hover {
+    background-color: #0056b3;
+}
+/************************************************************/
+.location{
+    margin:20px  10px;
+}
+/*************aditional info *********************************/
+/* Additional Information Styles */
+.additional-info {
+    margin-top: 20px;
+  }
+  
+  .additional-info p {
+    margin-bottom: 5px;
+  }
+  
+  /* Social Media Icons Styles */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000; /* Change color as needed */
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover as needed */
+  }
+/*******************************************************/
+.rating-container .rating .fa-star {
+    font-size: 30px; /* Adjust the font size as needed */
+  }
+  .rating-container .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    margin-bottom: 15px;
+    margin-left: 20px; 
+}
+.rating-container .rating span {
+    display: inline-block;
+    position: relative;
+    width:20px;
+}
