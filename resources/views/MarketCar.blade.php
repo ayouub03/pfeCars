@@ -217,7 +217,7 @@
             <a href="profile" class="profil-button">
                 <img src="profil.png" alt="Profil Icon">Profil
             </a>
-        </div>
+    </div> 
     </fieldset>
 
 
